@@ -1,0 +1,11 @@
+<template>
+    <!--
+        datatableのbutton、button-icon、actionのクリックイベントは、onrowactionになる
+    -->
+    <lightning-datatable
+        data={data}
+        columns={columns}
+        key-field="id"
+        onrowaction={handleAction}>
+    </lightning-datatable>
+</template>
